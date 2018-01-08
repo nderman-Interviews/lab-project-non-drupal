@@ -5,6 +5,10 @@ This was because the homebrew version of mongoDB used the incorrect version of o
 
 This was fixed by downloading the PECL version of MongoDB and then manually building the code specifying the correct version of openSSL.
 
+Webserver was run using the php server from command line:
+
+`php -S localhost:8080`
+
 Using the api to write to the DB tested using postman with POST request in the format shown below.
 
 POST /simple-api/score HTTP/1.1
