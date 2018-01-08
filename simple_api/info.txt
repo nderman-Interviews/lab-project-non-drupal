@@ -1,0 +1,4 @@
+mongo db
+
+username admin
+password vN9yozMMgMZMHByg
